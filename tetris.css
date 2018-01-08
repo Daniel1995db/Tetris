@@ -1,0 +1,84 @@
+body{
+	background-image: url(http://www.tcaa.us/Astronomy/Constellations/Base/ARA.jpg);
+	height: 1000px;
+	margin: 0 auto;
+	color: white;
+	font-family: monospace;
+	text-align: center;
+}
+
+#logo{
+	display: block;
+	width: 500px;
+	text-align: center;
+	margin: 0 auto 10 auto;
+}
+#welcome{
+	font-size: 42px;
+}
+#challenge{
+	font-size: 30px;
+}
+#instructions{
+	width: 700px;
+	margin: 0 auto 0 auto;
+	font-size: 17px;
+}
+.instructions{
+	font-weight: bold;
+	font-size: 30px;
+}
+#bold{
+	font-weight: bold;
+	border-bottom-style: solid;
+	border-top-style: solid;
+}
+table{
+	border-style: solid;
+	border-color: white;
+	margin: 5 auto 5 auto;
+	text-align: center;
+}
+table td{
+	padding: 7px;
+	font-size: 20px;
+}
+table th{
+	padding: 7px;
+	font-size: 20px;
+	border-bottom-style: solid;	
+}
+#tetris{
+	border-style: solid;
+	border-color: white;
+	margin: 20 auto 0 auto;
+	height: 85vh;
+}
+#level{
+	display: block;
+	text-align: center;
+}
+#level button{
+	font-size: 30px;
+	margin: 0 20 0 20;
+	padding: 10;
+	border-radius: 5%;
+	font-family: monospace;
+}
+.score{
+	font-size: 30px;
+	text-align: center;
+}
+h4{
+	margin: 7 0 5 0;
+	text-align: center;
+}
+#score{
+	margin-bottom: 0px;
+}
+#mute{
+	font-family: monospace;
+}
+
+
+
