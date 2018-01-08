@@ -1,0 +1,135 @@
+<html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="tetris.css">
+	<meta charset="utf-8">
+	<title>Tetris</title>
+</head>
+<body>
+
+	<!-- <img id="background1" src="http://images4.fanpop.com/image/photos/19200000/Nebulas-space-19260873-1800-1200.jpg"> -->
+	<img id="logo" src="tetrisLogo.png" />
+
+	<h1 id="welcome">Welcome to Tetris!</h1>
+	<p id="challenge">Challenge your skills to see if you can withstand the longest in this infinite puzzle game!</p>
+	
+	<div id="instructions">
+		<p class="instructions">Instructions</p>
+		<p>The rules to this game are simple. You are giving a series of shapes consistently. Your job is to simply stack, group, combine, and build the pieces closely together as possible without leaving many empty spaces.. Each piece drops from the top center of the board; and drops only when the previous piece has collided with another piece or the bottom of the board. When an entire row is filled with pieces, it gets removed from the board and into your Scoreboard. Each row removed from the board is a total of 12 points. Build carefully! because if you don't, the board will fill with pieces and touch the top. As soon as one piece touches the top...GAME OVER!</p> 
+		<p id="bold">Use the left and right arrow key to slide your piece left or right. Use the down arrow key to advance its motion downward. Use the Q and W key to rotate your piece left or right.</p>
+		<p>If you feel the game starts to get to easy, by all means, test your skills and higher the level!</p>
+		<p>What are you waiting for? Go ahead. Give it a shot. Can you get to level 10?...or higher?</p>
+	</div>
+
+	<table>
+		<tr>
+			<th>Level</th>
+			<th>Score</th>
+			<th>Avatar</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>12+</td>
+			<td>Joffrey Lannister</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>36+</td>
+			<td>Decent</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>72+</td>
+			<td>a Rubber Duck</td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>100+</td>
+			<td>WIZ-KID</td>
+		</tr>
+		<tr>
+			<td>5</td>
+			<td>150+</td>
+			<td>NYCDA Rubber Ducky</td>
+		</tr>
+		<tr>
+			<td>6</td>
+			<td>300+</td>
+			<td>The Director</td>
+		</tr>
+		<tr>
+			<td>7</td>
+			<td>450+</td>
+			<td>The Big Boss</td>
+		</tr>
+		<tr>
+			<td>8</td>
+			<td>650+</td>
+			<td>Superman</td>
+		</tr>
+		<tr>
+			<td>9</td>
+			<td>850+</td>
+			<td>DEMI GOD</td>
+		</tr>
+		<tr>
+			<td>10</td>
+			<td>1000+</td>
+			<td>NYCDA MIGHTY RUBBER DUCK!</td>
+		</tr>
+	</table>
+
+	<div id="level">
+		<h1>Please Select Your Level to Begin</h1>
+		<button id="easy">Easy</button>
+		<button id="medium">Medium</button>
+		<button id="hard">Hard</button>
+	</div>
+
+	<canvas id="tetris" width="240" height="400"></canvas>
+
+	<div class="score">
+		<h4>Your Score Here:</h4>
+		<div id="score">0</div>
+	</div>
+
+	<audio src="tetris.mp3" autoplay loop></audio>
+	<button id="mute">Mute Music</button>
+
+	<script
+  src="http://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+	<script src="tetris.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
